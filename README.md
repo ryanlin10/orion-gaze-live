@@ -7,6 +7,21 @@
   <a href="https://github.com/ryanlin10/orion-gaze-live/actions/workflows/ci.yml"><img src="https://github.com/ryanlin10/orion-gaze-live/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
 </p>
 
+<p align="center">
+  <img src="docs/demo-checkout.gif" alt="The heatmap following a person through a checkout form: the email field, the Pay button, then Send pending input now">
+  <br>
+  <sub>Going through a practice checkout. The heat moves to each field and button as it is used.</sub>
+</p>
+
+<p align="center">
+  <img src="docs/demo-ask-ai.gif" alt="The heatmap on the Ask the AI button, then following the answer and the page as it scrolls">
+  <br>
+  <sub>Asking the AI, then scrolling down to read the answer.</sub>
+</p>
+
+<p align="center"><sub>A real person on a real page, replayed through the live API at real speed: the heat is what Gaze Live
+drew, about 0.2 s behind, at the strength the model is sure of. The arrow is their pointer.</sub></p>
+
 Gaze Live streams your screen and your input (pointer, clicks, scrolling, and the fact that a key was pressed) to
 [Orion's Gaze API](https://app.paradigmmachines.ai/docs/gaze-api), and draws the gaze it predicts back over your
 screen about ten times a second. The model learned from hundreds of hours of eye tracking on screens, so it reads what
